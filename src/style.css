@@ -1,0 +1,109 @@
+/* General body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field styling */
+  .inputField {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .button {
+    width: 80%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Display generated hash */
+  .result {
+    margin-top: 20px;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+  
+  .result pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  /* Key-Value pair display for hashes */
+  .keyValueDisplay {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .keyValueDisplay div {
+    margin-bottom: 10px;
+  }
+  
+  .keyValueDisplay span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .keyValueDisplay .value {
+    color: #555;
+  }
+  
